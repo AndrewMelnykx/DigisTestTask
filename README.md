@@ -1,54 +1,35 @@
-# React + TypeScript + Vite
+# Weather View - The React Flow App Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+While developing this Weather View application — a clean, scalable task manager built with React, TypeScript, and Redux Toolkit — you might want to keep your terminal environment tidy, especially when running dev servers, testing, or building the app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Screenshot]((https://github.com/user-attachments/assets/c6371800-aebb-4b23-9222-6be81c130888)
+)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React with TypeScript:** Ensures type safety and scalable development.
+- **Redux Toolkit:** Simplifies state management with minimal boilerplate.
+- **Vite:** Provides a fast development and build environment.
+- **Jest Testing:** Basic unit tests with Jest to ensure component and logic reliability.
+- **Axios** A promise-based HTTP client used for making API requests, providing an easy-to-use interface with built-in support for request/response interception, error handling, and cancellation. 
+- **Recharts** A composable charting library built with React and D3, offering declarative components for creating responsive, customizable, and performant charts and visualizations. 
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Getting Started
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js (v16 or higher)
+- npm (comes with Node.js) or Yarn
+- Git
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/YourUsername/weather-view.git
+cd weather-view
