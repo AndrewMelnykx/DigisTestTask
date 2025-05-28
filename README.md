@@ -4,7 +4,7 @@
 
 While developing this Weather View application — a clean, scalable task manager built with React, TypeScript, and Redux Toolkit — you might want to keep your terminal environment tidy, especially when running dev servers, testing, or building the app.
 
-[Screenshot]((https://github.com/user-attachments/assets/c6371800-aebb-4b23-9222-6be81c130888)
+![Screenshot](https://github.com/user-attachments/assets/c6371800-aebb-4b23-9222-6be81c130888)
 )
 
 ## Features
