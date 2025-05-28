@@ -1,6 +1,6 @@
 import { ForecastList } from "@store/types";
 
-const WEATHER_API_BASE_LINK = "http://api.openweathermap.org";
+const WEATHER_API_BASE_LINK = "https://api.openweathermap.org";
 
 const violetColor = "#8884d8";
 const greenColor = "#82ca9d";
